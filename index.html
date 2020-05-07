@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Calculate ARR</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Será que a Receita Anual Recorrente (RAR) da tua empresa está saudável? Calcular rentabilidade com base em receitas passadas e despesas projetadas." />
+  <meta name="keywords" content="rentabilidade, receita, nadaradical, despesas">
+  <meta name="author" content="Austin Ginder, NadaRadical; sob a liceça do MIT">
+  <meta name="robots" content="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="language" content="pt-pt" />
+  <title>Calcula o RAR</title>
+  <link rel="icon" type="x-icon" href="favicon.png">
+  <link rel="shortcut icon" type="x-icon" href="favicon.png">
+  
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
@@ -33,15 +43,15 @@
   <div id="app">
     <v-app v-cloak>
        <v-app-bar color="blue darken-3" dark app extended>
-            <v-toolbar-title>Calculate ARR for <strong>{{ name }}</strong></v-toolbar-title>
+            <v-toolbar-title>Calcular o RAR de <strong>{{ name }}</strong></v-toolbar-title>
             <template v-slot:extension>
             <v-toolbar light dense flat>
-                Is your Annual Recurring Revenue (ARR) business healthy?
+                Será que a Receita Anual Recorrente (RAR) da tua empresa está saudável?
                 <v-spacer></v-spacer>
                 <div style="width:180px;position:relative;margin-top:20px">
                     <v-select
                         v-model="mode"
-                        :items='[{"text":"View Mode","value":"view","icon":"mdi-eye"},{"text":"Edit Mode","value":"edit","icon":"mdi-pencil"},{"text":"Report Mode","value":"report","icon":"mdi-chart-bar"}]'
+                        :items='[{"text":"Modo de visualização","value":"view","icon":"mdi-eye"},{"text":"Modo de edição","value":"edit","icon":"mdi-pencil"},{"text":"Modo Relatório","value":"report","icon":"mdi-chart-bar"}]'
                         label=""
                         @change="changeMode"
                         dense
@@ -66,21 +76,21 @@
                     <v-select
                         :items='version_options'
                         v-model="selected_version"
-                        label="Version"
-                        value="Latest"
+                        label="Versão"
+                        value="Mais recente"
                         @input="changeVersion"
                         dense
                     ></v-select>
-                    <v-text-field v-model="version.income" label="Year of revenue" prefix="$" readonly></v-text-field>
+                    <v-text-field v-model="version.income" label="Ano de receita" prefix="$" readonly></v-text-field>
                     <v-text-field
                         v-model="version.date_start"
-                        label="Start date"
+                        label="Data de início"
                         prepend-icon="mdi-calendar"
                         readonly
                     ></v-text-field>
                     <v-text-field
                         v-model="version.date_end"
-                        label="End date"
+                        label="Data final"
                         prepend-icon="mdi-calendar"
                         readonly
                     ></v-text-field>
@@ -91,22 +101,22 @@
                                     <v-icon small>mdi-content-save</v-icon>
                                 </v-list-item-action>
                                 <v-list-item-content>
-                                    <v-list-item-title>Export</v-list-item-title>
+                                    <v-list-item-title>Exportar</v-list-item-title>
                                 </v-list-item-content>
                             </v-list-item>
                         </v-list>
                 </template>
                 <template v-if='mode == "edit"'>
-                <v-text-field v-model="name" label="Business Name"></v-text-field>
+                <v-text-field v-model="name" label="Nome da empresa"></v-text-field>
                 <v-select
                     :items='version_options'
                     v-model="selected_version"
-                    label="Version"
-                    value="Latest"
+                    label="Versão"
+                    value="Mais recente"
                     @input="changeVersion()"
                     dense
                 ></v-select>
-                <v-text-field v-model="version.income" label="Year of revenue" prefix="$"></v-text-field>
+                <v-text-field v-model="version.income" label="Ano de receita" prefix="$"></v-text-field>
                 <v-menu
                     v-model="menu_startdate"
                     :close-on-content-click="false"
@@ -118,7 +128,7 @@
                     <template v-slot:activator="{ on }">
                     <v-text-field
                         v-model="version.date_start"
-                        label="Start date"
+                        label="Data de início"
                         prepend-icon="mdi-calendar"
                         readonly
                         v-on="on"
@@ -137,7 +147,7 @@
                     <template v-slot:activator="{ on }">
                     <v-text-field
                         v-model="version.date_end"
-                        label="End date"
+                        label="Data final"
                         prepend-icon="mdi-calendar"
                         readonly
                         v-on="on"
@@ -152,7 +162,7 @@
                                 <v-icon small>mdi-content-save</v-icon>
                             </v-list-item-action>
                             <v-list-item-content>
-                                <v-list-item-title>Export</v-list-item-title>
+                                <v-list-item-title>Exportar</v-list-item-title>
                             </v-list-item-content>
                         </v-list-item>
                         <v-subheader>SELECTED VERSION</v-subheader>
@@ -161,7 +171,7 @@
                                 <v-icon small>mdi-plus-box</v-icon>
                             </v-list-item-action>
                             <v-list-item-content>
-                                <v-list-item-title>New Category</v-list-item-title>
+                                <v-list-item-title>Nova categoria</v-list-item-title>
                             </v-list-item-content>
                         </v-list-item>
                         <v-divider></v-divider>
@@ -170,7 +180,7 @@
                                 <v-icon small>mdi-sort-alphabetical</v-icon>
                             </v-list-item-action>
                             <v-list-item-content>
-                                <v-list-item-title>Sort Expenses</v-list-item-title>
+                                <v-list-item-title>Classificar despesas</v-list-item-title>
                             </v-list-item-content>
                         </v-list-item>
                         <v-divider></v-divider>
@@ -179,7 +189,7 @@
                                 <v-icon small>mdi-content-copy</v-icon>
                             </v-list-item-action>
                             <v-list-item-content>
-                                <v-list-item-title>Duplicate Version</v-list-item-title>
+                                <v-list-item-title>Versão duplicada</v-list-item-title>
                             </v-list-item-content>
                         </v-list-item>
                         <v-divider></v-divider>
@@ -188,18 +198,18 @@
                                 <v-icon small>mdi-delete</v-icon>
                             </v-list-item-action>
                             <v-list-item-content>
-                                <v-list-item-title>Delete Version</v-list-item-title>
+                                <v-list-item-title>Excluir versão</v-list-item-title>
                             </v-list-item-content>
                         </v-list-item>
                     </v-list>
                 </template>
             </v-col>
             <v-col sm="12" md="8" class="px-3">
-                <h2>Current Fixed Recurring Expenses</h2>
+                <h2>Despesas recorrentes fixas atuais</h2>
                     <div v-for="type in expensesTypes">
                         <p class="ma-3">&nbsp;</p>
                         <v-data-table
-                            :headers='[{text:"Product",value:"product",width:"300px"},{"text":"Quantity","value":"quantity"},{"text":"Price","value":"price"},{"text":"Total","value":"total"}]'
+                            :headers='[{text:"Produto",value:"product",width:"300px"},{"text":"Quantidade","value":"quantity"},{"text":"Preço","value":"price"},{"text":"Total","value":"total"}]'
                             :items="version.expenses"
                             :custom-filter="filterType"
                             :custom-sort="customSort"
@@ -216,7 +226,7 @@
                                 <v-layout>
                                     <v-flex :class="'type-'+type"></a>{{ type }}</v-flex>
                                     <v-flex class="text-right">
-                                        <small>{{ items.length }} expenses totaling</small> &nbsp; <strong>${{ total(items) | formatLargeNumbers }}</strong>
+                                        <small>{{ items.length }} despesa(s) totalizando</small> &nbsp; <strong>${{ total(items) | formatLargeNumbers }}</strong>
                                     </v-flex>
                                 </v-layout>
                             </div>
@@ -233,7 +243,7 @@
                         </template>
                         </v-data-table>
                         <v-data-table
-                            :headers='[{text:"Product",value:"product",width:"300px"},{"text":"Type","value":"type",sortable:false},{"text":"Quantity","value":"quantity"},{"text":"Price","value":"price"},{"text":"Total","value":"total"},{"text":"","value":"actions",sortable:false}]'
+                            :headers='[{text:"Produto",value:"product",width:"300px"},{"text":"Type","value":"type",sortable:false},{"text":"Quantidade","value":"quantity"},{"text":"Preço","value":"price"},{"text":"Total","value":"total"},{"text":"","value":"actions",sortable:false}]'
                             :items="version.expenses"
                             :custom-filter="filterType"
                             :custom-sort="customSort"
@@ -250,7 +260,7 @@
                                     <v-layout>
                                         <v-flex :class="'type-'+type">{{ type }}</v-flex>
                                         <v-flex class="text-right">
-                                            <small>{{ items.length }} expenses totaling</small> &nbsp; <strong>${{ total(items) | formatLargeNumbers }}</strong>
+                                            <small>{{ items.length }} despesa(s) totalizando</small> &nbsp; <strong>${{ total(items) | formatLargeNumbers }}</strong>
                                         </v-flex>
                                     </v-layout>
                                 </div>
@@ -287,16 +297,16 @@
                     </div>
             </v-col>
             <v-col sm="12" md="2" class="px-3">
-                <h2>Results</h2>
+                <h2>Resultados</h2>
                 <template v-if="income > 0">
-                <p><small>Income: ${{ income | formatLargeNumbers }} <br />Expenses: ${{ total( version.expenses ) | formatLargeNumbers }}</small></p>
+                <p><small>Renda: ${{ income | formatLargeNumbers }} <br />Despesas: ${{ total( version.expenses ) | formatLargeNumbers }}</small></p>
                     <div v-if="+income > +total( version.expenses )">
-                        <p><small>Revenue</small><br /><span class="green--text">+${{ ( income - total( version.expenses ) ).toFixed(2) | formatLargeNumbers }} / year</span></p>
+                        <p><small>Receita</small><br /><span class="green--text">+${{ ( income - total( version.expenses ) ).toFixed(2) | formatLargeNumbers }} / ano</span></p>
                         <v-divider class="mb-3"></v-divider>
-                        <p class="green--text">Healthy 👍</p>
+                        <p class="green--text">Saudável 👍</p>
                     </div>
                     <div v-else class="red--text">
-                        Unhealthy<br />👎
+                        Pouco saudável<br />👎
                     </div>
                 </template>
                 <a ref="export_json" href="#"></a>
@@ -307,7 +317,7 @@
             <v-layout>
             <v-row>
                 <v-col sm="12" class="px-2">
-                    <h2>Report</h2>
+                    <h2>Relatório</h2>
                     <div id="chart"></div>
                     <div id="chart_profit"></div>
                 </v-col>
@@ -327,7 +337,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
   <script>
-    const months = ["Jan", "Feb", "Mar","Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const months = ["Jan", "Fev", "Mar","Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
     new Vue({
       el: '#app',
       data: {
