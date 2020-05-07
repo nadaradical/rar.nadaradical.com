@@ -2,8 +2,193 @@
   "name": "Nada Radical",
   "versions": [
     {
-      "date_start": "2020-01-01",
-      "date_end": "2020-01-31"
+      "date_start": "2019-05-01",
+      "date_end": "2020-04-30",
+      "income": "12",
+      "expenses": [
+        {
+          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
+          "Type": "Hosting",
+          "Price": "$3.75",
+          "Quantity": 1,
+          "Total": "$3.75"
+        },
+        {
+          "Product": "[Starter Shared](https://www.dreamhost.com/)",
+          "Type": "Hosting",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield](https://www.dreamhost.com/)",
+          "Type": "Hosting",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects](https://www.dreamhost.com/)",
+          "Type": "Hosting",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2019-04-01",
+      "date_end": "2020-03-31",
+      "income": "12",
+      "expenses": [
+        {
+          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
+          "Type": "Hosting",
+          "Price": "$3.75",
+          "Quantity": 1,
+          "Total": "$3.75"
+        },
+        {
+          "Product": "[Starter Shared](https://www.dreamhost.com/)",
+          "Type": "Hosting",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield](https://www.dreamhost.com/)",
+          "Type": "Hosting",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects](https://www.dreamhost.com/)",
+          "Type": "Hosting",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2019-03-01",
+      "date_end": "2020-02-29",
+      "income": "12",
+      "expenses": [
+        {
+          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
+          "Type": "Hosting",
+          "Price": "$3.75",
+          "Quantity": 1,
+          "Total": "$3.75"
+        },
+        {
+          "Product": "[Starter Shared](https://www.dreamhost.com/)",
+          "Type": "Hosting",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield](https://www.dreamhost.com/)",
+          "Type": "Hosting",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects](https://www.dreamhost.com/)",
+          "Type": "Hosting",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2019-02-01",
+      "date_end": "2020-01-31",
+      "income": "12",
+      "expenses": [
+        {
+          "Product": "[EasyWP Starter Monthly](https://www.namecheap.com/)",
+          "Type": "Hosting",
+          "Price": "$3.88",
+          "Quantity": 1,
+          "Total": "$3.88"
+        },
+        {
+          "Product": "[Supersonic CDN Free](https://www.namecheap.com/)",
+          "Type": "Hosting",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2019-01-01",
+      "date_end": "2019-12-31",
+      "income": "12",
+      "expenses": [
+        {
+          "Product": "[EasyWP Starter Monthly](https://www.namecheap.com/)",
+          "Type": "Hosting",
+          "Price": "$3.88",
+          "Quantity": 1,
+          "Total": "$3.88"
+        },
+        {
+          "Product": "[Supersonic CDN Free](https://www.namecheap.com/)",
+          "Type": "Hosting",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2018-12-01",
+      "date_end": "2019-11-30",
+      "income": "12",
+      "expenses": [
+        {
+          "Product": "[Domain Registration](https://www.namecheap.com/) + ICANN fee",
+          "Type": "Hosting",
+          "Price": "$9.06",
+          "Quantity": 1,
+          "Total": "$9.06"
+        },
+        {
+          "Product": "[Free WhoisGuard](https://www.namecheap.com/)",
+          "Type": "Hosting",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0"
+        },
+        {
+          "Product": "[Logo Maker Free](https://www.namecheap.com/)",
+          "Type": "Hosting",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0"
+        },
+        {
+          "Product": "[EasyWP Starter Monthly](https://www.namecheap.com/)",
+          "Type": "Hosting",
+          "Price": "$1",
+          "Quantity": 1,
+          "Total": "$1.00"
+        },
+        {
+          "Product": "[Supersonic CDN Free](https://www.namecheap.com/)",
+          "Type": "Hosting",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0"
+        }
+      ]
     }
   ]
 }
