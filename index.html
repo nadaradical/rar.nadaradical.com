@@ -71,7 +71,7 @@
         <v-container v-show="mode == 'view' || mode == 'edit'" class="grey lighten-5">
             <v-row no-gutters>
             <v-col sm="12" md="2" class="px-2">
-                <h2>Income</h2>
+                <h2>Renda</h2>
                 <template v-if="mode == 'view'">
                     <v-select
                         :items='version_options'
@@ -95,7 +95,7 @@
                         readonly
                     ></v-text-field>
                     <v-list dense light color="grey lighten-5">
-                            <v-subheader>ACTIONS</v-subheader>
+                            <v-subheader>AÇÕES</v-subheader>
                             <v-list-item @click="exportJSON" dense>
                                 <v-list-item-action style="margin-right:4px">
                                     <v-icon small>mdi-content-save</v-icon>
@@ -363,7 +363,7 @@
             return total.toFixed(2);
         },
         newCategory() {
-            new_category = prompt("Enter new category:")
+            new_category = prompt("Insira uma nova categoria:")
             if ( new_category ) {
                 this.version.expenses.push( {"Product":"","Type": new_category ,"Price":"$0","Quantity":1,"Total":"$0"})
                 setTimeout(() => {
@@ -381,7 +381,7 @@
             item.Total = "$" + (item.Quantity * item.Price.replace(/\$/gi, '').replace(/\,/gi, '')).toFixed(2);
         },
         deleteVersion() {
-            should_proceed = confirm("Delete this version?");
+            should_proceed = confirm("Excluir esta versão?");
             if ( ! should_proceed ) {
                 return;
             }
@@ -490,14 +490,14 @@
             chart_data = {
                 labels: this.version_options.map( v => v.text ).reverse(),
                 datasets: [
-                    { name: "Revenue", values: data.revenue.reverse() },
-                    { name: "Expenses", values: data.expenses.reverse() }
+                    { name: "Receita", values: data.revenue.reverse() },
+                    { name: "Despesas", values: data.expenses.reverse() }
                 ]
             }
             chart_data_profit = {
                 labels: this.version_options.map( v => v.text ).reverse(),
                 datasets: [
-                    { name: "Profit", values: profit.reverse() },
+                    { name: "Lucro", values: profit.reverse() },
                 ]
             }
             setTimeout(() => {
