@@ -4,7 +4,7 @@
     {
       "date_start": "2019-05-01",
       "date_end": "2020-04-30",
-      "income": "12",
+      "income": "22",
       "expenses": [
         {
           "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
@@ -33,6 +33,13 @@
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
+        },
+        {
+          "Product": "[Facebook Post Engagements](https://www.facebook.com/)",
+          "Type": "Advertisement",
+          "Price": "$10",
+          "Quantity": 1,
+          "Total": "$10.00"
         }
       ]
     },
