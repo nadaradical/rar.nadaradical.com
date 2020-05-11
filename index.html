@@ -243,7 +243,7 @@
                                 <v-layout>
                                     <v-flex :class="'type-'+type"></a>{{ type }}</v-flex>
                                     <v-flex class="text-right">
-                                        <small>{{ items.length }} despesa(s) totalizando</small> &nbsp; <strong>{{ total(items) | formatLargeNumbers }}€</strong>
+                                        <small>{{ items.length }} despesa(s) totalizando</small> &nbsp; <strong>{{ total(items) | formatLargeNumbers }} €</strong>
                                     </v-flex>
                                 </v-layout>
                             </div>
@@ -316,9 +316,9 @@
             <v-col sm="12" md="2" class="px-3">
                 <h2>Resultados</h2>
                 <template v-if="income > 0">
-                <p><small>Renda: {{ income | formatLargeNumbers }}€ <br />Despesas: {{ total( version.expenses ) | formatLargeNumbers }}€</small></p>
+                <p><small>Renda: {{ income | formatLargeNumbers }} € <br />Despesas: {{ total( version.expenses ) | formatLargeNumbers }} €</small></p>
                     <div v-if="+income > +total( version.expenses )">
-                        <p><small>Receita</small><br /><span class="green--text">+{{ ( income - total( version.expenses ) ).toFixed(2) | formatLargeNumbers }}€ / ano</span></p>
+                        <p><small>Receita</small><br /><span class="green--text">+{{ ( income - total( version.expenses ) ).toFixed(2) | formatLargeNumbers }} € / ano</span></p>
                         <v-divider class="mb-3"></v-divider>
                         <p class="green--text">Saudável 👍</p>
                     </div>
