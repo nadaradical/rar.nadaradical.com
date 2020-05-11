@@ -8,35 +8,35 @@
       "expenses": [
         {
           "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$3.75",
           "Quantity": 1,
           "Total": "$3.75"
         },
         {
           "Product": "[Starter Shared](https://www.dreamhost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$4.95",
           "Quantity": 1,
           "Total": "$4.95"
         },
         {
           "Product": "[DreamShield](https://www.dreamhost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$3.00",
           "Quantity": 1,
           "Total": "$3.00"
         },
         {
           "Product": "[DreamObjects](https://www.dreamhost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
         },
         {
           "Product": "[Facebook Post Engagements](https://www.facebook.com/)",
-          "Type": "Advertisement",
+          "Type": "Publicidade",
           "Price": "$10",
           "Quantity": 1,
           "Total": "$10.00"
@@ -50,28 +50,28 @@
       "expenses": [
         {
           "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$3.75",
           "Quantity": 1,
           "Total": "$3.75"
         },
         {
           "Product": "[Starter Shared](https://www.dreamhost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$4.95",
           "Quantity": 1,
           "Total": "$4.95"
         },
         {
           "Product": "[DreamShield](https://www.dreamhost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$3.00",
           "Quantity": 1,
           "Total": "$3.00"
         },
         {
           "Product": "[DreamObjects](https://www.dreamhost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -85,28 +85,28 @@
       "expenses": [
         {
           "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$3.75",
           "Quantity": 1,
           "Total": "$3.75"
         },
         {
           "Product": "[Starter Shared](https://www.dreamhost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$4.95",
           "Quantity": 1,
           "Total": "$4.95"
         },
         {
           "Product": "[DreamShield](https://www.dreamhost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$3.00",
           "Quantity": 1,
           "Total": "$3.00"
         },
         {
           "Product": "[DreamObjects](https://www.dreamhost.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -120,14 +120,14 @@
       "expenses": [
         {
           "Product": "[EasyWP Starter Monthly](https://www.namecheap.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$3.88",
           "Quantity": 1,
           "Total": "$3.88"
         },
         {
           "Product": "[Supersonic CDN Free](https://www.namecheap.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -141,14 +141,14 @@
       "expenses": [
         {
           "Product": "[EasyWP Starter Monthly](https://www.namecheap.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$3.88",
           "Quantity": 1,
           "Total": "$3.88"
         },
         {
           "Product": "[Supersonic CDN Free](https://www.namecheap.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -162,35 +162,35 @@
       "expenses": [
         {
           "Product": "[Domain Registration](https://www.namecheap.com/) + ICANN fee",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$9.06",
           "Quantity": 1,
           "Total": "$9.06"
         },
         {
           "Product": "[Free WhoisGuard](https://www.namecheap.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0"
         },
         {
           "Product": "[Logo Maker Free](https://www.namecheap.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0"
         },
         {
           "Product": "[EasyWP Starter Monthly](https://www.namecheap.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$1",
           "Quantity": 1,
           "Total": "$1.00"
         },
         {
           "Product": "[Supersonic CDN Free](https://www.namecheap.com/)",
-          "Type": "Hosting",
+          "Type": "Hospedagem",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0"
