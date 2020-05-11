@@ -98,7 +98,7 @@
                         @input="changeVersion"
                         dense
                     ></v-select>
-                    <v-text-field v-model="version.income" label="Ano de receita" prefix="€" readonly></v-text-field>
+                    <v-text-field v-model="version.income" label="Ano de receita" prefix="$" readonly></v-text-field>
                     <v-text-field
                         v-model="version.date_start"
                         label="Data de início"
@@ -133,7 +133,7 @@
                     @input="changeVersion()"
                     dense
                 ></v-select>
-                <v-text-field v-model="version.income" label="Ano de receita" prefix="€"></v-text-field>
+                <v-text-field v-model="version.income" label="Ano de receita" prefix="$"></v-text-field>
                 <v-menu
                     v-model="menu_startdate"
                     :close-on-content-click="false"
@@ -243,7 +243,7 @@
                                 <v-layout>
                                     <v-flex :class="'type-'+type"></a>{{ type }}</v-flex>
                                     <v-flex class="text-right">
-                                        <small>{{ items.length }} despesa(s) totalizando</small> &nbsp; <strong>{{ total(items) | formatLargeNumbers }} €</strong>
+                                        <small>{{ items.length }} despesa(s) totalizando</small> &nbsp; <strong>${{ total(items) | formatLargeNumbers }}</strong>
                                     </v-flex>
                                 </v-layout>
                             </div>
@@ -277,7 +277,7 @@
                                     <v-layout>
                                         <v-flex :class="'type-'+type">{{ type }}</v-flex>
                                         <v-flex class="text-right">
-                                            <small>{{ items.length }} despesa(s) totalizando</small> &nbsp; <strong>{{ total(items) | formatLargeNumbers }}€</strong>
+                                            <small>{{ items.length }} despesa(s) totalizando</small> &nbsp; <strong>${{ total(items) | formatLargeNumbers }}</strong>
                                         </v-flex>
                                     </v-layout>
                                 </div>
@@ -316,9 +316,9 @@
             <v-col sm="12" md="2" class="px-3">
                 <h2>Resultados</h2>
                 <template v-if="income > 0">
-                <p><small>Renda: {{ income | formatLargeNumbers }} € <br />Despesas: {{ total( version.expenses ) | formatLargeNumbers }} €</small></p>
+                <p><small>Renda: ${{ income | formatLargeNumbers }} <br />Despesas: ${{ total( version.expenses ) | formatLargeNumbers }}</small></p>
                     <div v-if="+income > +total( version.expenses )">
-                        <p><small>Receita</small><br /><span class="green--text">+{{ ( income - total( version.expenses ) ).toFixed(2) | formatLargeNumbers }} € / ano</span></p>
+                        <p><small>Receita</small><br /><span class="green--text">+${{ ( income - total( version.expenses ) ).toFixed(2) | formatLargeNumbers }} / ano</span></p>
                         <v-divider class="mb-3"></v-divider>
                         <p class="green--text">Saudável 👍</p>
                     </div>
@@ -382,20 +382,20 @@
         newCategory() {
             new_category = prompt("Insira uma nova categoria:")
             if ( new_category ) {
-                this.version.expenses.push( {"Product":"","Type": new_category ,"Price":"0€","Quantity":1,"Total":"0€"})
+                this.version.expenses.push( {"Product":"","Type": new_category ,"Price":"$0","Quantity":1,"Total":"$0"})
                 setTimeout(() => {
                     this.$vuetify.goTo(".type-"+new_category);
                 }, 1000);
             }
         },
         addExpense( type ) {
-            this.version.expenses.push( {"Product":"","Type": type ,"Price":"0€","Quantity":1,"Total":"0€"})
+            this.version.expenses.push( {"Product":"","Type": type ,"Price":"$0","Quantity":1,"Total":"$0"})
         },
         removeExpense( item ) {
             this.version.expenses = this.version.expenses.filter( e => e != item );
         },
         calculateTotal( item ) {
-            item.Total = (item.Quantity * item.Price.replace(/\$/gi, '').replace(/\,/gi, '')).toFixed(2) + "€";
+            item.Total = "$" + (item.Quantity * item.Price.replace(/\$/gi, '').replace(/\,/gi, '')).toFixed(2);
         },
         deleteVersion() {
             should_proceed = confirm("Excluir esta versão?");
@@ -524,7 +524,7 @@
                     colors: ['#2196f3', '#1565c0'],
                     height: 250,
                     tooltipOptions: {
-                        formatTooltipY: d => this.$options.filters.formatLargeNumbers( d ) + "€",
+                        formatTooltipY: d => "$" + this.$options.filters.formatLargeNumbers( d ),
                     }
                 });
                 let chart_profit = new frappe.Chart( "#chart_profit", {
@@ -533,7 +533,7 @@
                     colors: ['#2196f3'],
                     height: 250,
                     tooltipOptions: {
-                        formatTooltipY: d => this.$options.filters.formatLargeNumbers( d ) + "€",
+                        formatTooltipY: d => "$" + this.$options.filters.formatLargeNumbers( d ),
                     }
                 });
             }, 1000);   
