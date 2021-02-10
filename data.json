@@ -4,7 +4,7 @@
     {
       "date_start": "2020-02-01",
       "date_end": "2021-01-30",
-      "income": "21",
+      "income": "27",
       "expenses": [
         {
           "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
@@ -26,13 +26,20 @@
           "Price": "$5.45",
           "Quantity": 1,
           "Total": "$5.45"
+        },
+        {
+          "Product": "[4-GB EUROPA (MC)](https://purplehost.com.br/)",
+          "Type": "Hospedagem - Craftcracia",
+          "Price": "$5.20",
+          "Quantity": 1,
+          "Total": "$5.20"
         }
       ]
     },
     {
       "date_start": "2020-01-01",
       "date_end": "2020-12-30",
-      "income": "18",
+      "income": "24",
       "expenses": [
         {
           "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
@@ -61,13 +68,20 @@
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
+        },
+        {
+          "Product": "[4-GB EUROPA (MC)](https://purplehost.com.br/)",
+          "Type": "Hospedagem - Craftcracia",
+          "Price": "$5.20",
+          "Quantity": 1,
+          "Total": "$5.20"
         }
       ]
     },
     {
       "date_start": "2019-12-01",
       "date_end": "2020-11-30",
-      "income": "32",
+      "income": "45",
       "expenses": [
         {
           "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
@@ -110,6 +124,27 @@
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0"
+        },
+        {
+          "Product": "[Domain Registration + ICANN fee (MC)](https://www.namecheap.com/)",
+          "Type": "Dominio - Craftcracia",
+          "Price": "$9.06",
+          "Quantity": 1,
+          "Total": "$9.06"
+        },
+        {
+          "Product": "[Free WhoisGuard (MC)](https://www.namecheap.com/)",
+          "Type": "Dominio - Craftcracia",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0"
+        },
+        {
+          "Product": "[4-GB EUROPA (MC)](https://purplehost.com.br/)",
+          "Type": "Hospedagem - Craftcracia",
+          "Price": "$2.60",
+          "Quantity": 1,
+          "Total": "$2.60"
         }
       ]
     },
