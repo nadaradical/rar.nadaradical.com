@@ -4,7 +4,7 @@
     {
       "date_start": "2020-02-01",
       "date_end": "2021-01-30",
-      "income": "20",
+      "income": "21",
       "expenses": [
         {
           "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
@@ -30,44 +30,9 @@
       ]
     },
     {
-      "date_start": "2020-02-01",
-      "date_end": "2021-01-30",
-      "income": "17",
-      "expenses": [
-        {
-          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
-          "Type": "Hospedagem - NadaRadical",
-          "Price": "$10",
-          "Quantity": 1,
-          "Total": "$10"
-        },
-        {
-          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
-          "Type": "Hospedagem - NadaRadical",
-          "Price": "$4.95",
-          "Quantity": 1,
-          "Total": "$4.95"
-        },
-        {
-          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
-          "Type": "Hospedagem - NadaRadical",
-          "Price": "$3.00",
-          "Quantity": 1,
-          "Total": "$3.00"
-        },
-        {
-          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
-          "Type": "Hospedagem - NadaRadical",
-          "Price": "$0",
-          "Quantity": 1,
-          "Total": "$0.00"
-        }
-      ]
-    },
-    {
       "date_start": "2020-01-01",
       "date_end": "2020-12-30",
-      "income": "17",
+      "income": "18",
       "expenses": [
         {
           "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
@@ -102,7 +67,7 @@
     {
       "date_start": "2019-12-01",
       "date_end": "2020-11-30",
-      "income": "18",
+      "income": "32",
       "expenses": [
         {
           "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
@@ -131,6 +96,20 @@
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
+        },
+        {
+          "Product": "[Domain Renewal  + ICANN fee (Blog)](https://www.namecheap.com/)",
+          "Type": "Dominio - NadaRadical",
+          "Price": "$12.98",
+          "Quantity": 1,
+          "Total": "$13.16"
+        },
+        {
+          "Product": "[Free WhoisGuard Renewal (Blog)](https://www.namecheap.com/)",
+          "Type": "Dominio - NadaRadical",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0"
         }
       ]
     },
@@ -242,7 +221,7 @@
     {
       "date_start": "2019-08-01",
       "date_end": "2020-07-30",
-      "income": "15",
+      "income": "18",
       "expenses": [
         {
           "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
@@ -277,7 +256,7 @@
     {
       "date_start": "2019-07-01",
       "date_end": "2020-06-30",
-      "income": "11",
+      "income": "12",
       "expenses": [
         {
           "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
@@ -312,7 +291,7 @@
     {
       "date_start": "2019-06-01",
       "date_end": "2020-05-31",
-      "income": "11",
+      "income": "12",
       "expenses": [
         {
           "Product": "[Premium VPS Hosting 1024MB (Box)](https://pebblehost.com/)",
@@ -389,7 +368,7 @@
     {
       "date_start": "2019-04-01",
       "date_end": "2020-03-31",
-      "income": "11",
+      "income": "12",
       "expenses": [
         {
           "Product": "[Premium VPS Hosting 1024MB (Box)](https://pebblehost.com/)",
@@ -424,7 +403,7 @@
     {
       "date_start": "2019-03-01",
       "date_end": "2020-02-29",
-      "income": "11",
+      "income": "12",
       "expenses": [
         {
           "Product": "[Premium VPS Hosting 1024MB (Box)](https://pebblehost.com/)",
@@ -504,7 +483,7 @@
       "income": "12",
       "expenses": [
         {
-          "Product": "[Domain Registration (Blog)](https://www.namecheap.com/) + ICANN fee",
+          "Product": "[Domain Registration + ICANN fee (Blog)](https://www.namecheap.com/)",
           "Type": "Dominio - NadaRadical",
           "Price": "$9.06",
           "Quantity": 1,
