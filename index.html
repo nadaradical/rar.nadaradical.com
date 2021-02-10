@@ -474,11 +474,7 @@
             this.version_options = this.versions.map( ( v, i ) => {
                 year = v.date_end.substring( 0, 4)
                 month_index = new Date( v.date_end ).getMonth() + 1
-                if ( month_index == 12 ) {
-                    month_index = 0
-                    year++
-                }
-                month = months[month_index]
+                month = months[month_index-1]
                 date_name = `Orçamento de ${month} ${year}`
                 item = { value: i, text: date_name }
                 return item
