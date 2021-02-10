@@ -2,6 +2,41 @@
   "name": "Nada Radical",
   "versions": [
     {
+      "date_start": "2019-08-01",
+      "date_end": "2020-07-30",
+      "income": "12",
+      "expenses": [
+        {
+          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
+          "Type": "Hospedagem",
+          "Price": "$3.75",
+          "Quantity": 1,
+          "Total": "$3.75"
+        },
+        {
+          "Product": "[Starter Shared](https://www.dreamhost.com/)",
+          "Type": "Hospedagem",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield](https://www.dreamhost.com/)",
+          "Type": "Hospedagem",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects](https://www.dreamhost.com/)",
+          "Type": "Hospedagem",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
       "date_start": "2019-07-01",
       "date_end": "2020-06-30",
       "income": "12",
