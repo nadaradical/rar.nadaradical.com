@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
   
   <meta charset="UTF-8">
@@ -44,7 +44,7 @@
     [v-cloak] > * { display:none; }
     [v-cloak]::before {
         padding: 20px;
-        content: "Loading...";
+        content: "A carregar...";
         display: block;
         font-family: Roboto,sans-serif;
     }
@@ -84,7 +84,7 @@
             </v-toolbar>
             </template>
       </v-app-bar>
-      <v-content class="mt-5" style="background:#fafafa !important">
+      <v-main class="mt-5" style="background:#fafafa !important">
         <v-container v-show="mode == 'view' || mode == 'edit'" class="grey lighten-5">
             <v-row no-gutters>
             <v-col sm="12" md="2" class="px-2">
@@ -341,10 +341,10 @@
             </v-row>
             </v-layout>
         </v-container>
-      </v-content>
+      </v-main>
       <v-footer>
         <v-col class="text-center" cols="12">
-           <small>Feito com <a href="https://austinginder.com" target="_blank" style="text-decoration: none;">❤️</a> e código aberto. <a href="https://github.com/nadaradical/rar.nadaradical.com/">Cria o teu próprio (Português)</a>.</small>
+           <small>Feito com <a href="https://austinginder.com" target="_blank" style="text-decoration: none;">❤️</a> e código aberto. <a href="https://github.com/nadaradical/rar.nadaradical.com/index.html">Cria o teu próprio (Português)</a>.</small>
         </v-col>
         </v-footer>
     </v-app>
@@ -354,7 +354,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
   <script>
-    const months = ["jan", "fev", "mar","abr", "maio", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+    const months = ["jan", "fev", "mar","abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
     new Vue({
       el: '#app',
       data: {
@@ -427,7 +427,7 @@
             }, {});
         },
         filterType( value, search, item ) {
-            return item.Type == search
+            return item.Type === search
         },
         customSort(items, index, direction ) {
             items.sort((a, b) => {
@@ -488,7 +488,7 @@
             return marked(string).replace(/<a href="/gi, '<a target="_blank" href="');
         },
         changeMode() {
-            if( this.mode == "report" ) {
+            if( this.mode === "report" ) {
                 this.generateChartData();
             }
         },
