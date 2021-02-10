@@ -2,34 +2,272 @@
   "name": "Nada Radical",
   "versions": [
     {
-      "date_start": "2019-08-01",
-      "date_end": "2020-07-30",
-      "income": "12",
+      "date_start": "2020-02-01",
+      "date_end": "2021-01-30",
+      "income": "20",
       "expenses": [
         {
-          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
-          "Type": "Hospedagem",
-          "Price": "$3.75",
+          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$10",
           "Quantity": 1,
-          "Total": "$3.75"
+          "Total": "$10"
         },
         {
-          "Product": "[Starter Shared](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[VPS Personalizada  - LXC (Blog)](https://webtejo.pt/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$5.45",
+          "Quantity": 1,
+          "Total": "$5.45"
+        },
+        {
+          "Product": "[VPS Personalizada - KVM (Serviços Radicais)](https://webtejo.pt/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$5.45",
+          "Quantity": 1,
+          "Total": "$5.45"
+        }
+      ]
+    },
+    {
+      "date_start": "2020-02-01",
+      "date_end": "2021-01-30",
+      "income": "17",
+      "expenses": [
+        {
+          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$10",
+          "Quantity": 1,
+          "Total": "$10"
+        },
+        {
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$4.95",
           "Quantity": 1,
           "Total": "$4.95"
         },
         {
-          "Product": "[DreamShield](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.00",
           "Quantity": 1,
           "Total": "$3.00"
         },
         {
-          "Product": "[DreamObjects](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2020-01-01",
+      "date_end": "2020-12-30",
+      "income": "17",
+      "expenses": [
+        {
+          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$10",
+          "Quantity": 1,
+          "Total": "$10"
+        },
+        {
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2019-12-01",
+      "date_end": "2020-11-30",
+      "income": "18",
+      "expenses": [
+        {
+          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$10",
+          "Quantity": 1,
+          "Total": "$10"
+        },
+        {
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2019-11-01",
+      "date_end": "2020-10-30",
+      "income": "18",
+      "expenses": [
+        {
+          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$10",
+          "Quantity": 1,
+          "Total": "$10"
+        },
+        {
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2019-10-01",
+      "date_end": "2020-09-30",
+      "income": "18",
+      "expenses": [
+        {
+          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$10",
+          "Quantity": 1,
+          "Total": "$10"
+        },
+        {
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2019-09-01",
+      "date_end": "2020-08-30",
+      "income": "19",
+      "expenses": [
+        {
+          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$10",
+          "Quantity": 1,
+          "Total": "$10"
+        },
+        {
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$0",
+          "Quantity": 1,
+          "Total": "$0.00"
+        }
+      ]
+    },
+    {
+      "date_start": "2019-08-01",
+      "date_end": "2020-07-30",
+      "income": "15",
+      "expenses": [
+        {
+          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$10",
+          "Quantity": 1,
+          "Total": "$10"
+        },
+        {
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$4.95",
+          "Quantity": 1,
+          "Total": "$4.95"
+        },
+        {
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$3.00",
+          "Quantity": 1,
+          "Total": "$3.00"
+        },
+        {
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -39,32 +277,32 @@
     {
       "date_start": "2019-07-01",
       "date_end": "2020-06-30",
-      "income": "12",
+      "income": "11",
       "expenses": [
         {
-          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
-          "Type": "Hospedagem",
-          "Price": "$3.75",
+          "Product": "[VPS Hosting - R1 (Box)](https://store.bluegem.net/)",
+          "Type": "Hospedagem - NadaRadical",
+          "Price": "$10",
           "Quantity": 1,
-          "Total": "$3.75"
+          "Total": "$10"
         },
         {
-          "Product": "[Starter Shared](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$4.95",
           "Quantity": 1,
           "Total": "$4.95"
         },
         {
-          "Product": "[DreamShield](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.00",
           "Quantity": 1,
           "Total": "$3.00"
         },
         {
-          "Product": "[DreamObjects](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -74,32 +312,32 @@
     {
       "date_start": "2019-06-01",
       "date_end": "2020-05-31",
-      "income": "12",
+      "income": "11",
       "expenses": [
         {
-          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Premium VPS Hosting 1024MB (Box)](https://pebblehost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.75",
           "Quantity": 1,
           "Total": "$3.75"
         },
         {
-          "Product": "[Starter Shared](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$4.95",
           "Quantity": 1,
           "Total": "$4.95"
         },
         {
-          "Product": "[DreamShield](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.00",
           "Quantity": 1,
           "Total": "$3.00"
         },
         {
-          "Product": "[DreamObjects](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -112,29 +350,29 @@
       "income": "22",
       "expenses": [
         {
-          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Premium VPS Hosting 1024MB (Box)](https://pebblehost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.75",
           "Quantity": 1,
           "Total": "$3.75"
         },
         {
-          "Product": "[Starter Shared](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$4.95",
           "Quantity": 1,
           "Total": "$4.95"
         },
         {
-          "Product": "[DreamShield](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.00",
           "Quantity": 1,
           "Total": "$3.00"
         },
         {
-          "Product": "[DreamObjects](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -151,32 +389,32 @@
     {
       "date_start": "2019-04-01",
       "date_end": "2020-03-31",
-      "income": "12",
+      "income": "11",
       "expenses": [
         {
-          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Premium VPS Hosting 1024MB (Box)](https://pebblehost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.75",
           "Quantity": 1,
           "Total": "$3.75"
         },
         {
-          "Product": "[Starter Shared](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$4.95",
           "Quantity": 1,
           "Total": "$4.95"
         },
         {
-          "Product": "[DreamShield](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.00",
           "Quantity": 1,
           "Total": "$3.00"
         },
         {
-          "Product": "[DreamObjects](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -186,32 +424,32 @@
     {
       "date_start": "2019-03-01",
       "date_end": "2020-02-29",
-      "income": "12",
+      "income": "11",
       "expenses": [
         {
-          "Product": "[Premium VPS Hosting 1024MB](https://pebblehost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Premium VPS Hosting 1024MB (Box)](https://pebblehost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.75",
           "Quantity": 1,
           "Total": "$3.75"
         },
         {
-          "Product": "[Starter Shared](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Starter Shared (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$4.95",
           "Quantity": 1,
           "Total": "$4.95"
         },
         {
-          "Product": "[DreamShield](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamShield (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.00",
           "Quantity": 1,
           "Total": "$3.00"
         },
         {
-          "Product": "[DreamObjects](https://www.dreamhost.com/)",
-          "Type": "Hospedagem",
+          "Product": "[DreamObjects (Blog)](https://www.dreamhost.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -221,18 +459,18 @@
     {
       "date_start": "2019-02-01",
       "date_end": "2020-01-31",
-      "income": "12",
+      "income": "11",
       "expenses": [
         {
-          "Product": "[EasyWP Starter Monthly](https://www.namecheap.com/)",
-          "Type": "Hospedagem",
+          "Product": "[EasyWP Starter Monthly (Blog)](https://www.namecheap.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.88",
           "Quantity": 1,
           "Total": "$3.88"
         },
         {
-          "Product": "[Supersonic CDN Free](https://www.namecheap.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Supersonic CDN Free (Blog)](https://www.namecheap.com/)",
+          "Type": "Dominio - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -245,15 +483,15 @@
       "income": "12",
       "expenses": [
         {
-          "Product": "[EasyWP Starter Monthly](https://www.namecheap.com/)",
-          "Type": "Hospedagem",
+          "Product": "[EasyWP Starter Monthly (Blog)](https://www.namecheap.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$3.88",
           "Quantity": 1,
           "Total": "$3.88"
         },
         {
-          "Product": "[Supersonic CDN Free](https://www.namecheap.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Supersonic CDN Free (Blog)](https://www.namecheap.com/)",
+          "Type": "Dominio - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0.00"
@@ -266,36 +504,36 @@
       "income": "12",
       "expenses": [
         {
-          "Product": "[Domain Registration](https://www.namecheap.com/) + ICANN fee",
-          "Type": "Hospedagem",
+          "Product": "[Domain Registration (Blog)](https://www.namecheap.com/) + ICANN fee",
+          "Type": "Dominio - NadaRadical",
           "Price": "$9.06",
           "Quantity": 1,
           "Total": "$9.06"
         },
         {
-          "Product": "[Free WhoisGuard](https://www.namecheap.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Free WhoisGuard (Blog)](https://www.namecheap.com/)",
+          "Type": "Dominio - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0"
         },
         {
-          "Product": "[Logo Maker Free](https://www.namecheap.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Logo Maker Free (Blog)](https://www.namecheap.com/)",
+          "Type": "Dominio - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0"
         },
         {
-          "Product": "[EasyWP Starter Monthly](https://www.namecheap.com/)",
-          "Type": "Hospedagem",
+          "Product": "[EasyWP Starter Monthly (Blog)](https://www.namecheap.com/)",
+          "Type": "Hospedagem - NadaRadical",
           "Price": "$1",
           "Quantity": 1,
           "Total": "$1.00"
         },
         {
-          "Product": "[Supersonic CDN Free](https://www.namecheap.com/)",
-          "Type": "Hospedagem",
+          "Product": "[Supersonic CDN Free (Blog)](https://www.namecheap.com/)",
+          "Type": "Dominio - NadaRadical",
           "Price": "$0",
           "Quantity": 1,
           "Total": "$0"
